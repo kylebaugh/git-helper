@@ -22,7 +22,7 @@ Your project is now a local repo and you've tracked and saved the current versio
 3.	Click the green “New” button towards the left corner
 4.	Give your repository a name. The name should exactly match the name of the local repo folder. (It will work if the names do not match, but typically mismatched names for the local and remote repos leads to confusion.)
 5. After creating the repo you'll be presented with a setup page. Copy the commands from the section titled **…or push an existing repository from the command line**. It should have the following commands: 
- - git remote add origin https://github.com/suthyscott/[NAME-OF-YOUR-REPO].git
+ - git remote add origin https://github.com/[YOUR-GITHUB-USERNAME]/[NAME-OF-YOUR-REPO].git
  - git branch -M main
  - git push -u origin main
 6. Paste the commands into your command line *in the folder with your local repo*. On Windows you may have to hit enter to run the last command manually after pasting it. 
@@ -35,37 +35,6 @@ As you code and make changes that you want push up, follow the below steps:
 3. `git status` *(optional)* You should now see the files you added in green, showing that they're ready to commit. 
 4. `git commit -m 'some commit message'` will take a snapshot or save a version of the folder as it currently is. 
 5. `git push` After connecting the remote repo, git will have a record of where to push your files. Once you've pushed, you can go and view the changes on GitHub. 
-
-
-
-# Method two - creating the repo in GitHub
-
-1.	Go into GitHub
-2.	Sign in
-3.	Click the green “New” button towards the left corner
-4.	Give your repository a name
-5.	In the section titled **…or create a new repository on the command line** click the button on the right side to copy that code (Below is the code)
-  -	`echo "# test1" >> README.md` - the word “test1” will be your repository name
-  - `git init`
-  - `git add README.md`
-  - `git commit -m "first commit"`
-  - `git branch -M main`
-  - `git remote add origin https://github.com/adam-hunter13/test1.git` - the word “test1” will be your repository name
-  - `git push -u origin main`
-6.	Download needed material from DevMountain
-7.	Open Finder/File Explorer
-8.	Move that download to the folder where you want the final project to be saved
-9.	Open your computer’s terminal
-10.	Navigate to where you moved that downloaded file and run `code .` This will open that file in VS Code.
-11.	Navigate back to your computer’s terminal
-12.	Paste the code from Step 5
-13.	Click back into GitHub and refresh the page
- - You should see that your new repository now has one commit
-14.	In the VS Code Terminal or your computers terminal, make sure you are in the root folder for the project and type `git add .` This starts tracking all of the files in your current folder. You can also add specific files like so: `git add [filename]`. 
-15.	Next we want to create a message for our commit in the terminal type `git commit -m “message”`
-16.	Once that code has populated within the terminal you will next type `git push` to send your local changes to your GitHub repo
-17.	Navigate back to GitHub and refresh the page. You should see that the repository has a new commit with all the code you have created. 
-
 
 
 
