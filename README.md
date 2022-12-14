@@ -1,12 +1,8 @@
 To create a git repository: 
 
 
-# Method One - Creating local and remote repos separately and then connecting them. 
+# Creating local and remote repos separately and then connecting them. 
 
-### Download the exercise file from Frodo
-1. Download the project folder from Frodo. You may have to unzip it. 
-2. Using the Finder or the File Explorer, drag the project folder where you want it (I suggest having a DevMountain folder with an afternoon-projects folder organized into weeks).
-3. Alternatively, if you are comfortable with the command line you could move the folder using the `mv [file/folder] [destination]` command, where [file/folder] is the item to be moved, and [destination] is the folder you would like to move it to. 
 ### Set up the local repo
 1. In your command line, navigate into the project folder you would like to make a repo in. *You should only create a single repo for a single project*. Type in pwd to make sure you're in the correct place. 
 2. `git init` Once you are sure you're in the correct folder, you want to initialize a git repo so that git will track the changes you make in the project. 
